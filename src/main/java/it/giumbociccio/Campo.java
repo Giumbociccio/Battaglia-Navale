@@ -185,7 +185,7 @@ public class Campo {
     List<String> opzioni = new ArrayList<>();
     for (int i = 0; i < linee.size(); i++) {
       if (!naveInseribile(nave, coordIniziali, Direzione.values()[i]) || nave.getLunghezza() > linee.get(i).size())
-        opzioni.add("Direzione non disponbile: cella/e occupata/e");
+        opzioni.add("Direzione non disponibile: cella/e occupata/e");
       else
         opzioni.add(linee.get(i).toString());
     }

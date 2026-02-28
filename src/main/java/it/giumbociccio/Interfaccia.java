@@ -34,7 +34,11 @@ public abstract class Interfaccia {
         System.out.print(" ");
       }
       for (int j = 0; j < toPrint[i].length; j++) {
-        System.out.print("| " + toPrint[i][j] + " ");
+    	String daStampare = "" + toPrint[i][j];
+    	if(daStampare.equals("0")) {
+    		daStampare= " ";
+    	}
+        System.out.print("| " + daStampare + " ");
       }
       System.out.println(
           "|\n   |---+---+---+---+---+---+---+---+---+---+---+---+---+---+---+---+---+---+---+---+---+---+---+---+---+---|");
