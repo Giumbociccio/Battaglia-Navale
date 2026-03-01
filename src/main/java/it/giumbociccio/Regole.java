@@ -6,7 +6,8 @@ public class Regole {
 
   private static List<Pair<Nave, Integer>> flottaStandard = new ArrayList<>();
 
-  public static List<Pair<Nave, Integer>> getFlottaStandard() {
+  @SuppressWarnings({ "unchecked", "rawtypes" })
+public static List<Pair<Nave, Integer>> getFlottaStandard() {
     if (flottaStandard.size() == 0) {
       flottaStandard.add(new Pair(new Sottomarino("C3", "C3"), 5));
       flottaStandard.add(new Pair(new Torpediniera("C3", "C3"), 4));

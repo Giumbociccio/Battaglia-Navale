@@ -20,6 +20,7 @@ public abstract class Interfaccia {
 	}
 
 	public static String richiediValore(String messaggio) {
+		@SuppressWarnings("resource")
 		Scanner s = new Scanner(System.in);
 		System.out.println(messaggio);
 		String valore = s.nextLine();
