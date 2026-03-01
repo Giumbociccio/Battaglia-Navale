@@ -36,7 +36,7 @@ public class Main {
 		case 2:
 			break;
 		case 3:
-			System.out.println("\nE' stato un piacere giocare con te, alla prossima!!");
+			System.out.println("\nÈ stato un piacere giocare con te, alla prossima!!");
 			gioco = false;
 			break;
 		default:
